@@ -8,17 +8,15 @@ class DataTypes {
         String  type     = scanner.nextLine ();
         String  variable = scanner.nextLine ();
         switch (type) {
-            case "int":
+            case "int" -> {
                 int number = Integer.parseInt (variable);
                 printResult (number);
-                break;
-            case "real":
+            }
+            case "real" -> {
                 double realNumber = Double.parseDouble (variable);
                 printResult (realNumber);
-                break;
-            case "string":
-                printResult (variable);
-                break;
+            }
+            case "string" -> printResult (variable);
         }
     }
 
