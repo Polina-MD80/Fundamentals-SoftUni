@@ -7,6 +7,7 @@ class DataTypes {
         Scanner scanner  = new Scanner (System.in);
         String  type     = scanner.nextLine ();
         String  variable = scanner.nextLine ();
+
         switch (type) {
             case "int" -> {
                 int number = Integer.parseInt (variable);
