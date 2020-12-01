@@ -17,11 +17,12 @@ class MirrorWords {
         List<String> mirrors = new ArrayList<> ();
         while (valid.find ()) {
             count++;
-            Boolean isMirrored = true;
+            boolean isMirrored = true;
             String  validText  = valid.group ();
             for (int i = 0; i < validText.length () / 2; i++) {
                 if (validText.charAt (i) != validText.charAt (validText.length () - 1 - i)) {
                     isMirrored = false;
+                    break;
                 }
             }
             if (isMirrored) {
