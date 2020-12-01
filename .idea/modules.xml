@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AssociativeArrays/AssociativeArrays.iml" filepath="$PROJECT_DIR$/AssociativeArrays/AssociativeArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicHTML/BasicHTML.iml" filepath="$PROJECT_DIR$/BasicHTML/BasicHTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicSyntaxisConditionalStatementsAndLoops/BasicSyntaxisConditionalStatementsAndLoops.iml" filepath="$PROJECT_DIR$/BasicSyntaxisConditionalStatementsAndLoops/BasicSyntaxisConditionalStatementsAndLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataTypesAndVariables/DataTypesAndVariables.iml" filepath="$PROJECT_DIR$/DataTypesAndVariables/DataTypesAndVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamPreparation/ExamPreparation.iml" filepath="$PROJECT_DIR$/ExamPreparation/ExamPreparation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FundanentalsSuftUni.iml" filepath="$PROJECT_DIR$/FundanentalsSuftUni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lists/Lists.iml" filepath="$PROJECT_DIR$/Lists/Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metods/Metods.iml" filepath="$PROJECT_DIR$/Metods/Metods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MidExam/MidExam.iml" filepath="$PROJECT_DIR$/MidExam/MidExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectsAndClasses/ObjectsAndClasses.iml" filepath="$PROJECT_DIR$/ObjectsAndClasses/ObjectsAndClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegEx/RegEx.iml" filepath="$PROJECT_DIR$/RegEx/RegEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Templates/Templates.iml" filepath="$PROJECT_DIR$/Templates/Templates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextProcesing/TextProcesing.iml" filepath="$PROJECT_DIR$/TextProcesing/TextProcesing.iml" />
+    </modules>
+  </component>
+</project>
