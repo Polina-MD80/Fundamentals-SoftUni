@@ -13,15 +13,16 @@ class TheImitationGame {
             switch (token[0].trim ()) {
                 case "Move":
                     int index = Integer.parseInt (token[1]);
-                    if (index > 0 && index <message.length ()) {
+                    if (index >0 && index < message.length ()) {
                         String sb = message.substring (0, index);
                         message = message.substring (index) + sb;
                     }
                     break;
                 case "Insert":
                     int indexToInsert = Integer.parseInt (token[1]);
-                    if (indexToInsert > 0 && indexToInsert < message.length ()) {
-                        message = message.substring (0, indexToInsert) + token[2] + message.substring (indexToInsert);
+                    StringBuilder sb = new StringBuilder (message);
+                    if (indexToInsert >= 0 && indexToInsert < message.length ()) {
+                        message = sb.insert (indexToInsert,token[2]).toString ();
                     }else if (indexToInsert<=0){
                         message = token[2]+message;
                     }else message=message+token[2];
@@ -29,7 +30,7 @@ class TheImitationGame {
                     break;
                 case "ChangeAll":
                     if (message.contains (token[1])) {
-                        message = message.replaceAll (token[1], token[2]);
+                        message = message.replace (token[1], token[2]);
                     }
                     break;
             }
