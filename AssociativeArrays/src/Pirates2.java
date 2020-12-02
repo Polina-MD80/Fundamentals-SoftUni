@@ -35,8 +35,6 @@ class Pirates2 {
                 return Integer.compare (first, second);
             }).forEach (e -> System.out.printf ("%s -> Population: %d citizens, Gold: %d kg%n", e.getKey (), e.getValue ()[0], e.getValue ()[1]));
         }
-
-
     }
 
     private static
