@@ -33,7 +33,7 @@ class WorldTour {
     private static
     String switchStops (String stops, String[] tokens) {
         if (stops.contains (tokens[1])) {
-            stops = stops.replaceAll (tokens[1], tokens[2]);
+            stops = stops.replace (tokens[1], tokens[2]);
         }
         System.out.println (stops);
         return stops;
