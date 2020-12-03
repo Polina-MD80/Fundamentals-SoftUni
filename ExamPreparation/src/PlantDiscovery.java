@@ -41,7 +41,7 @@ class PlantDiscovery {
         ratings.forEach ((key, value) -> {
             for (String s : plantInfo.keySet ()) {
                 if (key.equals (s) && value.size () > 0) {
-                    plantInfo.get (s)[1] = value.stream ().mapToDouble (Double::doubleValue).average ().getAsDouble ();
+                    plantInfo.get (s)[1] = value.stream ().mapToDouble (Double::doubleValue).average ().orElseThrow ();
                 }
             }
         });
