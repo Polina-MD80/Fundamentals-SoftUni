@@ -74,6 +74,7 @@ class PlantDiscovery2 {
             String   name        = plantRarity[0];
             int      rarity      = Integer.parseInt (plantRarity[1]);
             Plant    plant       = new Plant (name, rarity);
+            plant.name = name;
             plantsByRarity.put (plant.getName (), plant);
         }
 
