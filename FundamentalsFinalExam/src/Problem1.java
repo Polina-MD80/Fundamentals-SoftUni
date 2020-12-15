@@ -17,15 +17,15 @@ class Problem1 {
 
             switch (tokens[0]){
                 case "Make":
-                    switch (tokens[1]){
-                        case "Upper":
+                    switch (tokens[1]) {
+                        case "Upper" -> {
                             email = email.toUpperCase ();
                             System.out.println (email);
-                            break;
-                        case "Lower":
+                        }
+                        case "Lower" -> {
                             email = email.toLowerCase ();
                             System.out.println (email);
-                            break;
+                        }
                     }
                     break;
                 case "GetDomain":
